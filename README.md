@@ -1,10 +1,10 @@
 # Distributed Log Aggregation System
 
-This project provides an example and description of building a distributed log aggregation system using Apache Kafka and Spring Boot. The log aggregation system aims to collect logs from multiple sources, centralize them in Kafka topics, and utilize consumers to process and store the logs for analysis.
+This project aims to collect logs from multiple sources, centralize them in Kafka topics, and utilize consumers to process and store them for analysis.
 
 ## Purpose
 
-The purpose of this project is to get the basic idea about the implementation of a distributed log aggregation system using industry-standard technologies. By leveraging Apache Kafka as a messaging system and Spring Boot for building the application, created a scalable and fault-tolerant system for collecting and processing logs.
+The purpose of this project is to get a basic idea about the implementation of a distributed log aggregation system using industry-standard technologies. By leveraging Apache Kafka as a messaging system and Spring Boot for building the application, created a scalable and fault-tolerant system for collecting and processing logs.
 
 The project covers the following key aspects:
 
@@ -16,6 +16,10 @@ The project covers the following key aspects:
 
 4. Log Consumer: Develop a log consumer component that subscribes to Kafka topics, consumes log messages, and processes them according to the desired requirements. This component can perform actions such as storing logs in a database, performing analysis, or triggering alerts.
 
-5. Distributed Architecture: Understand the benefits of a distributed architecture for log aggregation. Explore concepts such as consumer groups, parallel processing, scalability, and fault-tolerance.
+5. Distributed Architecture: Understand the benefits of a distributed architecture for log aggregation. Explore concepts such as consumer groups, parallel processing, scalability, and fault tolerance.
 
-Through this project, got insights into building a robust log aggregation system using Apache Kafka and Spring Boot, learnt how to collect logs from multiple sources, centralize them in Kafka topics, and process them with distributed consumers. This system enables real-time log analysis, storage, and monitoring, offering a foundation for building more advanced logging and monitoring solutions.
+Through this project, got insights into building a robust log aggregation system using Apache Kafka and Spring Boot, learned how to collect logs from multiple sources, centralize them in Kafka topics, and process them with distributed consumers. This system enables real-time log analysis, storage, and monitoring, offering a foundation for building more advanced logging and monitoring solutions.
+
+## Output
+
+![Kafka](https://github.com/HR-Fahim/Distributed-Log-Aggregation/assets/66734379/d58db184-e1f6-4da3-9a0a-595daff482a5)
